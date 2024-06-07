@@ -22,7 +22,7 @@ var activitysRouter = require('./routes/activitysRoutes');
 var messagesRouter = require('./routes/messagesRoutes');
 var commentsRouter = require('./routes/commentsRoutes');
 var notificationsRouter = require('./routes/notificationsRoutes');
-var contactsRouter = require('./routes/ContactsRoutes');
+var contactsRouter = require('./routes/contactsRoutes');
 var newslettersRouter = require('./routes/newsletterRoutes');
 
 const AdminactivityRoutes = require('./routes/admin/activityRoutes');
