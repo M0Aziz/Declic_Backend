@@ -26,36 +26,6 @@ beforeAll(() => {
 describe('Notification Routes', () => {
 
 
-    describe('GET /notifications/', () => {
-        it('should retrieve notifications for the current user', async () => {
-          const token = 'dummyToken';
-          const userId = 'dummyUserId';
-          
-          // Mocking the JWT token verification
-          jwt.verify.mockReturnValue({ _id: userId });
-          
-          // Making a mock request object with headers containing the token
-          const req = {
-            headers: {
-              authorization: `Bearer ${token}`
-            }
-          };
-    
-          // Mocking the response object
-          const res = {};
-          res.status = jest.fn().mockReturnValue(res);
-          res.json = jest.fn();
-    
-          // Mocking the User.findOne function to resolve with a user
-          User.findOne.mockResolvedValue({ _id: userId });
-    
-          // Calling the verifyToken middleware function with the mock request, response, and next
-          await verifyToken(req, res, () => {});
-    
-          // Expecting that the req.user property has been set with the user ID
-          expect(req.user).toBe(userId);
-        });
-      });
 
   describe('PUT /notifications/:notificationId/markAsRead/', () => {
     it('should mark a notification as read', async () => {

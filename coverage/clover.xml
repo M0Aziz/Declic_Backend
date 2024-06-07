@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1717773973545" clover="3.2.0">
-  <project timestamp="1717773973545" name="All files">
-    <metrics statements="57" coveredstatements="33" conditionals="12" coveredconditionals="2" methods="4" coveredmethods="2" elements="73" coveredelements="37" complexity="0" loc="57" ncloc="57" packages="3" files="4" classes="4"/>
+<coverage generated="1717775657809" clover="3.2.0">
+  <project timestamp="1717775657809" name="All files">
+    <metrics statements="57" coveredstatements="25" conditionals="12" coveredconditionals="0" methods="4" coveredmethods="1" elements="73" coveredelements="26" complexity="0" loc="57" ncloc="57" packages="3" files="4" classes="4"/>
     <package name="middleware">
-      <metrics statements="18" coveredstatements="12" conditionals="6" coveredconditionals="2" methods="1" coveredmethods="1"/>
+      <metrics statements="18" coveredstatements="4" conditionals="6" coveredconditionals="0" methods="1" coveredmethods="0"/>
       <file name="authMiddleware.js" path="E:\Stage PFE 2\web\backend\declic_backend\middleware\authMiddleware.js">
-        <metrics statements="18" coveredstatements="12" conditionals="6" coveredconditionals="2" methods="1" coveredmethods="1"/>
+        <metrics statements="18" coveredstatements="4" conditionals="6" coveredconditionals="0" methods="1" coveredmethods="0"/>
         <line num="3" count="1" type="stmt"/>
         <line num="4" count="1" type="stmt"/>
         <line num="5" count="1" type="stmt"/>
-        <line num="7" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="7" count="0" type="cond" truecount="0" falsecount="2"/>
         <line num="8" count="0" type="stmt"/>
-        <line num="12" count="1" type="stmt"/>
-        <line num="14" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="12" count="0" type="stmt"/>
+        <line num="14" count="0" type="cond" truecount="0" falsecount="2"/>
         <line num="15" count="0" type="stmt"/>
-        <line num="19" count="1" type="stmt"/>
-        <line num="20" count="1" type="stmt"/>
-        <line num="22" count="1" type="stmt"/>
+        <line num="19" count="0" type="stmt"/>
+        <line num="20" count="0" type="stmt"/>
+        <line num="22" count="0" type="stmt"/>
         <line num="23" count="0" type="cond" truecount="0" falsecount="2"/>
         <line num="24" count="0" type="stmt"/>
         <line num="27" count="0" type="stmt"/>
         <line num="28" count="0" type="stmt"/>
-        <line num="30" count="1" type="stmt"/>
-        <line num="31" count="1" type="stmt"/>
+        <line num="30" count="0" type="stmt"/>
+        <line num="31" count="0" type="stmt"/>
         <line num="36" count="1" type="stmt"/>
       </file>
     </package>
